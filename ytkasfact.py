@@ -16,7 +16,7 @@ def get_fact():
 
 
 @loader.tds
-class YtkasFact(loader.Module):
+class YtkasFactModule(loader.Module):
     developer = "@ytkamods"
     """YtkasModule"""
     strings = {"name": "YtkasFact", "fact": "Random fact"}
